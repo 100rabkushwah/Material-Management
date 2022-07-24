@@ -10,10 +10,9 @@ def AdminLogin(request):
     try:
      result=request.session['ADMIN']
      return render(request, "AdminDashBoard.html", {'result': result})
-
     except Exception as e:
-
      return render(request,'AdminLogin.html')
+
 def CheckAdminLogin(request):
     try:
      emailid=request.POST['emailid']
@@ -30,7 +29,6 @@ def CheckAdminLogin(request):
      else:
          return render(request, "AdminLogin.html", {'result': result,'msg':"Invalid Emailid/Password"})
      db.close()
-
     except Exception as e:
       print (e)
       return render(request, "AdminLogin.html", {'result': {},'msg':'Server Error'})

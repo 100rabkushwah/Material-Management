@@ -49,7 +49,7 @@ def EmployeeDashboard(request):
   return render(request,"EmployeeDashboard.html")
 
 
-
+#admin will add the employ for the company given below
 @xframe_options_exempt
 def EmployeeInterface(request):
     try:
@@ -81,7 +81,7 @@ def EmployeeSubmit(request):
        db,cmd=Pool.ConnectionPool()
        cmd.execute(q)
        db.commit()
-       F=open("D:/MM/assets/"+filename,"wb")
+       F=open("F:/MM/assets/"+filename,"wb")
        for chunk in picture.chunks():
            F.write(chunk)
        F.close()
@@ -91,7 +91,7 @@ def EmployeeSubmit(request):
 
        print(result.json())
        #EmailService.SendMail(emailaddress,"Hi {} Your Password is {}".format(firstname,password))
-       EmailService.SendHTMLMail(emailaddress, "Hi {} Your Password is {}".format(firstname, password))
+       # EmailService.SendHTMLMail(emailaddress, "Hi {} Your Password is {}".format(firstname, password))
        return render(request, "EmployeeInterface.html",{'msg':'Record Successfully Submitted'})
 
     except Exception as e:
@@ -188,13 +188,13 @@ def SaveEditPicture(request):
        db,cmd=Pool.ConnectionPool()
        cmd.execute(q)
        db.commit()
-       F=open("D:/MM/assets/"+filename,"wb")
+       F=open("F:/MM/assets/"+filename,"wb")
        for chunk in picture.chunks():
            F.write(chunk)
        F.close()
 
        db.close()
-       os.remove('D:/MM/assets/'+oldpicture)
+       os.remove('F:/MM/assets/'+oldpicture)
        return DisplayAll(request)
     except Exception as e:
        return DisplayAll(request)

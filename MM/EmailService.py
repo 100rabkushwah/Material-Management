@@ -5,8 +5,8 @@ from email.mime.multipart import MIMEMultipart
 def SendMail(receiver_email, message):
  smtp_server = "smtp.gmail.com"
  port = 587  # For starttls
- sender_email = "tt1791180@gmail.com"
- password = "12345nitin"
+ sender_email = "aijarivs587@gmail.com"
+ password = "Vishal@07"
 
 # Create a secure SSL context
  context = ssl.create_default_context()
@@ -25,12 +25,10 @@ def SendMail(receiver_email, message):
     print(e)
  finally:
     server.quit()
+
 def SendHTMLMail(receiver_email, msg):
-
-
-    sender_email = "tt1791180@gmail.com"
-    password = "12345nitin"
-
+    sender_email = "aijarivs587@gmail.com"
+    password = "Vishal@07"
 
 
     message = MIMEMultipart("alternative")
@@ -45,7 +43,7 @@ def SendHTMLMail(receiver_email, msg):
       <body>
         <p>Hi,<br>
            How are you?<br>
-           <a href="http://www.sandeepsappal.in">Sandeep Sappal</a> 
+           <a href="http://drxgyan.com">Vishal Jain</a> 
            Pls Change Your Password
         </p>
       </body>

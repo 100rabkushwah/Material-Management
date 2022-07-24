@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from . import Pool
+from django.http import JsonResponse
+from . import PoolDict
 
 
 def IssueInterface(request):

@@ -174,12 +174,12 @@ def SaveEditFinalProductPicture(request):
         dbe, cmd = Pool.ConnectionPool()
         cmd.execute(q)
         dbe.commit()
-        F = open("D:/MM/assets/"+filename, "wb")
+        F = open("F:/MM/assets/"+filename, "wb")
         for chunk in picture.chunks():
             F.write(chunk)
         F.close()
         dbe.close()
-        os.remove('D:/MM/assets/'+oldpicture)
+        os.remove('F:/MM/assets/'+oldpicture)
         return DisplayAllFinalProduct(request)
     except Exception as e:
         print("Error :", e)

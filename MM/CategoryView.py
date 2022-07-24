@@ -16,7 +16,7 @@ def CategorySubmit(request):
         db,cmd=Pool.ConnectionPool()
         cmd.execute(q)
         db.commit()
-        F=open("D:/MM/assets/"+categoryicon,"wb")
+        F=open("F:/MM/assets/"+categoryicon,"wb")
         for chunk in icon.chunks():
             F.write(chunk)
         F.close()
@@ -117,12 +117,12 @@ def SaveEditCategoryIcon(request):
         db,cmd=Pool.ConnectionPool()
         cmd.execute(q)
         db.commit()
-        F=open("D:/MM/assets/"+filename,"wb")
+        F=open("F:/MM/assets/"+filename,"wb")
         for chunk in picture.chunks():
             F.write(chunk)
         F.close()
         db.close()
-        os.remove('D:/MM/assets/'+oldpicture)
+        os.remove('F:/MM/assets/'+oldpicture)
         return DisplayCategories(request)
     except Exception as e:
         print("Error:", e)

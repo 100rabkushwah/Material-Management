@@ -1,17 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:heroku" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e7e0e4a1-0b00-4aca-9c4d-306502aa9836" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MM/AdminView.py" beforeDir="false" afterPath="$PROJECT_DIR$/MM/AdminView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MM/CategoryView.py" beforeDir="false" afterPath="$PROJECT_DIR$/MM/CategoryView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MM/EmailService.py" beforeDir="false" afterPath="$PROJECT_DIR$/MM/EmailService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MM/EmployeeView.py" beforeDir="false" afterPath="$PROJECT_DIR$/MM/EmployeeView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MM/FinalProductView.py" beforeDir="false" afterPath="$PROJECT_DIR$/MM/FinalProductView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MM/IssueView.py" beforeDir="false" afterPath="$PROJECT_DIR$/MM/IssueView.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MM/Pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/MM/Pool.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MM/PoolDict.py" beforeDir="false" afterPath="$PROJECT_DIR$/MM/PoolDict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MM/ProductView.py" beforeDir="false" afterPath="$PROJECT_DIR$/MM/ProductView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MM/PurchaseView.py" beforeDir="false" afterPath="$PROJECT_DIR$/MM/PurchaseView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MM/StateCityView.py" beforeDir="false" afterPath="$PROJECT_DIR$/MM/StateCityView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MM/SubCategoryView.py" beforeDir="false" afterPath="$PROJECT_DIR$/MM/SubCategoryView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MM/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MM/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/AdminDashBoard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/AdminDashBoard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/AdminLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/AdminLogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/CategoryInterface.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/CategoryInterface.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/CategoryInterfaceOld.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/DisplayAllEmployee.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/DisplayAllEmployee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/DisplayAllFinalProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/DisplayAllFinalProduct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/DisplayAllPurchaseProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/DisplayAllPurchaseProduct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/DisplayAllSupplier.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/DisplayAllSupplier.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/DisplayCategories.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/DisplayCategories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/DisplayEmployeeById.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/DisplayEmployeeById.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/DisplayFinalProductEmployee.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/DisplayFinalProductEmployee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/DisplayProductEmployee.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/DisplayProductEmployee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/DisplayProducts.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/DisplayProducts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/DisplaySubcategories.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/DisplaySubcategories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/DisplaySubcategoryById.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/DisplaySubcategoryById.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/EditCategoryIcon.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/EditCategoryIcon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/EditEmployeePicture.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/EditEmployeePicture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/EditProductIcon.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/EditProductIcon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/EditSubcategoryIcon.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/EditSubcategoryIcon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/EmployeeDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/EmployeeDashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/EmployeeInterface.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/EmployeeInterface.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/EmployeeLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/EmployeeLogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/FinalProductInterface.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/FinalProductInterface.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/IssueInterface.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/IssueInterface.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/ListIssueEmployee.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/ListIssueEmployee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/ListProductsEmployee.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/ListProductsEmployee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/ListPurchaseEmployee.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/ListPurchaseEmployee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/ProductInterface.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/ProductInterface.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/PurchaseInterface.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/PurchaseInterface.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/SubcategoryInterface.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/SubcategoryInterface.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/SupplierInterface.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/SupplierInterface.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/000958e0-f820-4e88-9d5a-5f68f92b7808.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/0d72eb2e-aefc-4271-ad20-b17badb95b7e.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/12ab001f-fc5a-44d8-bef8-c5112e6507d3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/349d8fbe-d926-44b4-8ea0-ff4e3cd6a403.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/361f7fde-cd2c-4836-8466-99bf8c624e0e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/3eda47ac-99f6-4c19-9009-ec1a6404f5ce.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/4f9732f0-f621-42ab-9833-a2b6e564e27f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/7f7463ac-8121-4df5-aa91-580786264273.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/891064ff-ff8b-4e82-ab1e-e2c0b7511749.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/91b2c87c-f0ea-4f13-8338-8bded6b51633.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/96f463f7-51ea-404f-91ca-438552edfd22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/9c4dccdb-bf78-4393-861c-3346c1b5f5e7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/EmployeeLogin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/MaterialManagement.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Session.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/a611c961-3d24-4ff8-9a9d-cd3c01f1be65.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/af65f287-12bb-42db-a02c-89d49bb958c5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/b617b54a-fbb5-43ef-8976-641f8a9e1a0d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/b7c8dec2-1ef7-4e74-9fb4-77097af83547.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/background1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/employee.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/employee.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/employees.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ffffb1c1-3dbe-4ffb-8fd8-6107a38d444e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/noimages.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/product.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/product.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/supplier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -26,11 +117,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1xr0dmFXnsII0952BnfkvkscYLG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Template" />
+    <property name="last_opened_file_path" value="D:/MM" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -40,18 +141,6 @@
       <recent name="D:\MM\MM" />
       <recent name="D:\MM\assets" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="MM" type="Python.DjangoServer" factoryName="Django server">
@@ -148,12 +237,20 @@
       <workItem from="1635335717158" duration="11000" />
       <workItem from="1635417727464" duration="3288000" />
       <workItem from="1635430594305" duration="6000" />
-      <workItem from="1637049917719" duration="347000" />
+      <workItem from="1637049917719" duration="3273000" />
+      <workItem from="1637071806412" duration="18000" />
+      <workItem from="1658555884808" duration="11510000" />
+      <workItem from="1658586557151" duration="6211000" />
+      <workItem from="1658595497445" duration="1179000" />
+      <workItem from="1658597909012" duration="125000" />
+      <workItem from="1658598147653" duration="1252000" />
+      <workItem from="1658599485119" duration="1058000" />
+      <workItem from="1658652550431" duration="607000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -165,6 +262,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="443" y="53" key="FileChooserDialogImpl" timestamp="1658593088455">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="443" y="53" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1658593088455" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

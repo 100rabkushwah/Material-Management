@@ -4,8 +4,8 @@ Material Dashboard - v2.1.2
 =========================================================
 
 Product Page: https://www.creative-tim.com/product/material-dashboard
-Copyright 2020 Creative Tim (https://www.creative-tim.com)
-Coded by Creative Tim
+Copyright 2020 Material Mangement (https://www.creative-tim.com)
+Coded by Material Mangement
 
 =========================================================
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
@@ -20,7 +20,7 @@ The above copyright notice and this permission notice shall be included in all c
     <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Material Dashboard by Creative Tim
+    Material Dashboard by Material Mangement
   </title>
   <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -278,8 +278,7 @@ The above copyright notice and this permission notice shall be included in all c
                                     <td>{{row.9}}</td>
                                     <td> &#8377; {{row.10}}</td>
                                     <td>{{row.11}}</td>
-                                    <td><a a class="button is-white modal-buttonforimg" data="{{row}}" data-target="#modal1"><img
-                                                src="/static/{{row.12}}" width="50px"></a></td>
+                                    <td><a a class="button is-white modal-buttonforimg" data="{{row}}" data-target="#modal1"><img src="/static/{{row.12}}" width="50px"></a></td>
                                     <td><a a class="button is-primary modal-button" data="{{row}}" data-target="#modal">Edit/Delete</a>
                                     <Button  class="button is-primary pay"  amount="{{ row.10 }}">Pay</Button>
 
@@ -447,8 +446,7 @@ The above copyright notice and this permission notice shall be included in all c
                             style="background-color: #dfe6e9; width:600px; background:white; border-radius:10px;">
                 
                             <body style="background-color: #dfe6e9;">
-                                <form action="/saveeditfinalproductpicture" method="POST" enctype="multipart/form-data"> {% csrf_token
-                                    %}
+                                <form action="/saveeditfinalproductpicture" method="POST" enctype="multipart/form-data"> {% csrf_token%}
                                     <input type="hidden" id="finalproductid1" name="finalproductid1">
                                     <input type="hidden" id="oldpicture" name="oldpicture">
                                     <div class="root">
@@ -541,9 +539,9 @@ function payment(amt){
 		// AFTER TRANSACTION IS COMPLETE YOU WILL GET THE RESPONSE HERE.
 	},
 	"prefill": {
-		"name":"Abc Industries", // pass customer name
+		"name":"Vishal Industries", // pass customer name
 
-		"contact":"9301123085" //customer phone no.
+		"contact":"9755257682" //customer phone no.
 	},
 	"notes": {
 		"address": "Happy" //customer address
@@ -578,38 +576,14 @@ function printDiv() {
           </div>
         </div>
       </div>
-      <footer class="footer">
+          <footer class="footer">
         <div class="container-fluid">
-          <nav class="float-left">
-            <ul>
-              <li>
-                <a href="https://www.creative-tim.com">
-                  Creative Tim
-                </a>
-              </li>
-              <li>
-                <a href="https://creative-tim.com/presentation">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="http://blog.creative-tim.com">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="https://www.creative-tim.com/license">
-                  Licenses
-                </a>
-              </li>
-            </ul>
-          </nav>
           <div class="copyright float-right">
             &copy;
             <script>
               document.write(new Date().getFullYear())
             </script>, made with <i class="material-icons">favorite</i> by
-            <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> for a better web.
+            <a href="http://vishalportfolio.s3-website-us-east-1.amazonaws.com/" target="_blank">Vishal Jain</a> for a better web.
           </div>
         </div>
       </footer>

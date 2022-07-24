@@ -1,189 +1,133 @@
+<style type="text/css">
+
+    .root
+ {
+   display:flex;
+   justify-content:right;
+   align-items:center;
+   padding:5px;
+     width: 100%;
+   border-radius:10px;
+
+ }
+
+ /*     .root1*/
+ /*{*/
+ /*  display:flex;*/
+ /*justify-content:left;*/
+ /*         align-items: center;*/
+ /*  border-radius:10px;*/
+
+ /*}*/
+     .Frame{
+ width:97%;
+         height: 90%;
+ background-color: #fff;
+          margin:28px 22px;
+     border-radius: 30px;
+  }
+
+
+ .Myframe{
+ width:500px;
+ background-color:#fff;
+ padding:20px;
+     margin-bottom: 37px;
+     border-radius: 30px;
+  }
+ .gap{
+    margin-top:10px;
+ }
+ .btnstyles{
+ display:flex;
+ justify-content:center;
+ align-item:center;
+ }
+
+</style>
 <!DOCTYPE html>
 <html lang="en">
-
+<!--<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/static/Javascript/project.js"></script>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-
-  <style>
-body {
-    background-image: url('/static/background1.jpeg');
-    opacity: 65%;
-    font-family: 'Roboto', sans-serif;
-}
-
-.login-box {
-    margin-top: 75px;
-    height: auto;
-    background: black;
-    text-align: center;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-}
-
-.login-key {
-    height: 100px;
-    font-size: 80px;
-    line-height: 100px;
-    background: -webkit-linear-gradient(#27EF9F, #0DB8DE);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.login-title {
-    margin-top: 15px;
-    text-align: center;
-    font-size: 30px;
-    letter-spacing: 2px;
-    margin-top: 15px;
-    font-weight: bold;
-    color: #ECF0F5;
-}
-
-.login-form {
-    margin-top: 25px;
-    text-align: left;
-}
-
-input[type=text] {
-    background-color: #1A2226;
-    border: none;
-    border-bottom: 2px solid #0DB8DE;
-    border-top: 0px;
-    border-radius: 0px;
-    font-weight: bold;
-    outline: 0;
-    margin-bottom: 20px;
-    padding-left: 0px;
-    color: #ECF0F5;
-}
-
-input[type=password] {
-    background-color: #1A2226;
-    border: none;
-    border-bottom: 2px solid #0DB8DE;
-    border-top: 0px;
-    border-radius: 0px;
-    font-weight: bold;
-    outline: 0;
-    padding-left: 0px;
-    margin-bottom: 20px;
-    color: #ECF0F5;
-}
-
-.form-group {
-    margin-bottom: 40px;
-    outline: 0px;
-}
-
-.form-control:focus {
-    border-color: inherit;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border-bottom: 2px solid #0DB8DE;
-    outline: 0;
-    background-color: #1A2226;
-    color: #ECF0F5;
-}
-
-input:focus {
-    outline: none;
-    box-shadow: 0 0 0;
-}
-
-label {
-    margin-bottom: 0px;
-}
-
-.form-control-label {
-    font-size: 10px;
-    color: white;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-
-.btn-outline-primary {
-    border-color: #0DB8DE;
-    color: #0DB8DE;
-    border-radius: 0px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-.btn-outline-primary:hover {
-    background-color: #0DB8DE;
-    right: 0px;
-}
-
-.login-btm {
-    float: left;
-}
-
-.login-button {
-    padding-right: 0px;
-    text-align: right;
-    margin-bottom: 25px;
-}
-
-.login-text {
-    text-align: left;
-    padding-left: 0px;
-    color: #A2A4A4;
-}
-
-.loginbttm {
-    padding: 0px;
-}
-  </style>
-
-  <title>Employee Login</title>
+    <meta charset="UTF-8">
+    <title>EmployeeLogin[MM]</title>
 </head>
 
-<body style="background-color: lightgray; ">
-  <div class="container">
-    <div class="row">
-        <div class="col-lg-3 col-md-2"></div>
-        <div class="col-lg-6 col-md-8 login-box">
-            <div class="col-lg-12 login-key">
-                <i class="fa fa-key" aria-hidden="true"></i>
-            </div>
-            <div class="col-lg-12 login-title">
-                EMPLOYEE LOGIN
+<body style=" background-color: #dfe6e9;">
+
+<form action="/checkemployeelogin" method="POST" enctype="multipart/form-data" >{% csrf_token %}
+ <div class="frame">
+    <div class="root">
+        <img src="/static/MM10.jpg"  style="border-radius:50px;width:900px; height: 500px; margin: 63px;">
+        <div class="Myframe">
+
+            <div class="row gap" style="display:flex;align-items:center;padding-left:160px;margin-bottom:10px;">
+                <img src="/static/1.jpeg" title="Saurabh Kushwah" style="border-radius:100px;width:140px; height: 130px;">
+
             </div>
 
-            <div class="col-lg-12 login-form">
-                <div class="col-lg-12 login-form">
-                  <form action="/checkemployeelogin" method="post" enctype="application/x-www-form-urlencoded"> {% csrf_token %}
-                        <div class="form-group">
-                            <label class="form-control-label">EMAIL / PHONE</label>
-                            <input type="text" name="emailaddress" id="emailaddress" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <label class="form-control-label">PASSWORD</label>
-                            <input type="password" name="password" id="password" class="form-control" i>
-                        </div>
 
-                        <div class="col-lg-12 loginbttm">
-                            <div class="col-lg-6 login-btm login-text">
-                                <div class="col btnstyle" style="font-size: 18px; font-weight:bold; color: red;">
-                                    {{msg}}
-                                </div>
-                            </div>
-                            <div class="col-lg-6 login-btm login-button">
-                                <button type="submit" class="btn btn-outline-primary">LOGIN</button>
-                            </div>
-                        </div>
-                    </form>
+               <div class="row gap" style="display:flex;align-items:center;font-size:25px;letter:2px; spacing:2px; font-weight:bold;padding-left:150px;margin-bottom:10px;">
+                  Employee Sign in
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-2"></div>
-        </div>
-    </div>
-</body>
 
+
+
+       <i class="fa fa-envelope" aria-hidden="true"></i> Email Address:
+         <div class="row gap">
+           <div class="col">
+                 <input type="text"  class="form-control"  id="emailaddress" name="emailaddress" placeholder="Email Address" >
+           </div>
+         </div>
+<!--        <div class="field">-->
+<!--  <p class="control has-icons-left has-icons-right">-->
+<!--    <input class="input" type="email" placeholder="Email">-->
+<!--    <span class="icon is-small is-left">-->
+<!--      <i class="fas fa-envelope"></i>-->
+<!--    </span>-->
+<!--    <span class="icon is-small is-right">-->
+<!--      <i class="fas fa-check"></i>-->
+<!--    </span>-->
+<!--  </p>-->
+<!--</div>-->
+<i class="fas fa-lock"></i> Password:
+          <div class="row gap">
+           <div class="col">
+      <input type="text" class="form-control" name="password" id="password" placeholder="Password">
+           </div>
+         </div>
+<!--        <div class="field">-->
+<!--  <p class="control has-icons-left">-->
+<!--    <input class="input" type="password" placeholder="Password">-->
+<!--    <span class="icon is-small is-left">-->
+<!--      <i class="fas fa-lock"></i>-->
+<!--    </span>-->
+<!--  </p>-->
+<!--</div>-->
+            <div class="row gap gap">
+                <a href="">&nbsp;&nbsp;&nbsp;&nbsp;Forgot Password</a>
+            </div>
+
+           <div class="row gap ">
+             <div class="col btnstyles">
+                 <button type="submit"  class="btn btn-primary w-100">Login</button>{{msg}}
+            </div>
+
+
+           </div>
+         </div>
+
+
+
+
+       </div>
+    </div>
+
+    </div>
+</form>
+</body>
 </html>

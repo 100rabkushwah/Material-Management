@@ -11,10 +11,6 @@ def FetchAllStates(request):
   except Exception as e:
       print(e)
       return JsonResponse([], safe=False)
-
-
-
-
 def FetchAllCities(request):
   try:
     db,cmd=Pool.ConnectionPool()
